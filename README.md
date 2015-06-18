@@ -10,9 +10,11 @@ This is a sample project wrapping the `tns` commands in a Grunt script that comp
 
 # Setting it up
 
-* $ npm install
-* $ tns platform add android
-* grunt app-full.
+```sh
+$ npm install
+$ tns platform add android
+$ grunt app-full.
+```
 
 # Development workflow
 
