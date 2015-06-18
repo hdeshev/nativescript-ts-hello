@@ -16,6 +16,8 @@ $ tns platform add android
 $ grunt app-full.
 ```
 
+When done, run the emulator (see below).
+
 # Development workflow
 
 * Edit some files.
