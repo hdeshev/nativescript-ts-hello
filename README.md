@@ -1,11 +1,27 @@
-Getting the app to run:
+# NativeScript + TypeScript
 
-* npm install
-* tns platform add android ...
-* grunt app-full. (Make sure you set your NSDIST env var or pass modulesPath/typingsPath options)
+This is a sample project wrapping the `tns` commands in a Grunt script that compiles the TypeScript code and assembles the correct `app` folder structure.
 
-Changing and testing the app:
-* grunt app
-* ./emulateAndroid.sh <avd>
+# How it works?
 
-Protip: Use a single command like `grunt app && ./emulateAndroid.sh`
+* We keep everything below `./src`. **DO NOT PUT ANYTHING IMPORTANT IN `./app`**
+* The TypeScript compiler puts transpiled `.js` files in `./app'
+* A Grunt task updates all app assets and the `tns_modules` folder too.
+
+# Setting it up
+
+* $ npm install
+* $ tns platform add android
+* grunt app-full.
+
+# Development workflow
+
+* Edit some files.
+* Start the emulator using: `grunt run-android --avd <YOUR AVD>`
+    * Hit Ctrl-C when done.
+
+# Upgrading to a newer NativeScript version
+
+* Update your platforms.
+* Update your `src/tns_modules` folder with the latest version of the module code.
+* Remove the 1.1 `*.d.ts` files below `src/typings/nativescript/1.1` and add the new type declarations in a similarly named folder.
