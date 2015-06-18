@@ -4,4 +4,3 @@ lib
 tmp
 node_modules
 src/tns_modules
-src/typings
