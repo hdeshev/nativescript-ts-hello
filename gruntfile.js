@@ -5,6 +5,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-shell');
 
+    var androidAvd = grunt.option('avd') || "nexus"
+
     grunt.initConfig({
         ts: {
             build: {
@@ -38,7 +40,7 @@ module.exports = function(grunt) {
         shell: {
             emulate: {
                 //change to your AVD name below
-                command: "tns emulate android --avd nexus4-x64"
+                command: "tns emulate android --avd '" + androidAvd +"'"
             }
         }
     });
