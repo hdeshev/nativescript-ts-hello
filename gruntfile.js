@@ -6,6 +6,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
 
     var androidAvd = grunt.option('avd') || "nexus"
+    var iOSDevice = grunt.option('device') || "nexus"
 
     grunt.initConfig({
         ts: {
@@ -38,10 +39,13 @@ module.exports = function(grunt) {
             },
         },
         shell: {
-            emulate: {
-                //change to your AVD name below
+            emulateAndroid: {
                 command: "tns emulate android --avd '" + androidAvd +"'"
+            },
+            emulateIOS: {
+                command: "tns emulate ios --device '" + iOSDevice +"'"
             }
+
         }
     });
 
@@ -59,7 +63,8 @@ module.exports = function(grunt) {
         "app",
     ]);
 
-    grunt.registerTask("run-android", ["app", "shell:emulate"])
+    grunt.registerTask("run-android", ["app", "shell:emulateAndroid"])
+    grunt.registerTask("run-ios", ["app", "shell:emulateIOS"])
 
     grunt.registerTask("clean", ["removeAppDir"]);
 }

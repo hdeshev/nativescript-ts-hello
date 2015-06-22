@@ -13,6 +13,7 @@ This is a sample project wrapping the `tns` commands in a Grunt script that comp
 ```sh
 $ npm install
 $ tns platform add android
+$ tns platform add ios
 $ grunt app-full.
 ```
 
@@ -21,7 +22,7 @@ When done, run the emulator (see below).
 # Development workflow
 
 * Edit some files.
-* Start the emulator using: `grunt run-android --avd <YOUR AVD>`
+* Start the emulator using: `grunt run-android --avd <YOUR AVD>` or `grunt run-ios --device <YOUR DEVICE>`
     * Hit Ctrl-C when done.
 
 # Upgrading to a newer NativeScript version
