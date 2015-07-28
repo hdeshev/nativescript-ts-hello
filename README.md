@@ -29,4 +29,4 @@ When done, run the emulator (see below).
 
 * Update your platforms.
 * Update your `src/tns_modules` folder with the latest version of the module code.
-* Remove the 1.1 `*.d.ts` files below `src/typings/nativescript/1.1` and add the new type declarations in a similarly named folder.
+* Remove the 1.2 `*.d.ts` files below `src/typings/nativescript/1.2` and add the new type declarations in a similarly named folder.
