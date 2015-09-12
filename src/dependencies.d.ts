@@ -1,0 +1,37 @@
+/// <reference path="../typings/nativescript/1.2/declarations.d.ts" />
+/// <reference path="../typings/nativescript/1.2/es-collections.d.ts" />
+/// <reference path="../typings/nativescript/1.2/data/observable/observable.d.ts" />
+/// <reference path="../typings/nativescript/1.2/data/observable-array/observable-array.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/core/view.d.ts" />
+/// <reference path="../typings/nativescript/1.2/application/application.d.ts" />
+/// <reference path="../typings/nativescript/1.2/color/color.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/core/dependency-observable.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/core/proxy.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/core/bindable.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/content-view/content-view.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/styling/styling.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/styling/style-property.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/styling/css-selector.d.ts" />
+/// <reference path="../typings/nativescript/1.2/js-libs/reworkcss/reworkcss.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/frame/frame.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/page/page.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/action-bar/action-bar.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/layouts/layout.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/layouts/stack-layout/stack-layout.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/layouts/dock-layout/dock-layout.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/gestures/gestures.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/text-base/text-base.d.ts" />
+/// <reference path="../typings/nativescript/1.2/text/formatted-string.d.ts" />
+/// <reference path="../typings/nativescript/1.2/text/span.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/editable-text-base/editable-text-base.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/text-view/text-view.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/text-field/text-field.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/button/button.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/label/label.d.ts" />
+/// <reference path="../typings/nativescript/1.2/ui/switch/switch.d.ts" />
+
+/// DISABLED reference path="../deps/NativeScript/bin/dist/definitions/android17.d.ts" />
+/// DISABLED reference path="../deps/NativeScript/bin/dist/definitions/ios.d.ts" />
+
+/// <reference path="../typings/nativescript/android17-dummy.d.ts" />
+/// <reference path="../typings/nativescript/ios-dummy.d.ts" />
