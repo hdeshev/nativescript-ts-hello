@@ -2,7 +2,7 @@
 	"nativescript": {
 		"id": "org.nativescript.nativescripttshello",
 		"tns-android": {
-			"version": "1.2.0"
+			"version": "1.2.1"
 		},
 		"node-modules-cache-path": "/home/local/TELERIK/hdeshev/w/nativescript-ts-hello/tmp/funnel-output_path-8r3FtDCG.tmp"
 	},
@@ -34,6 +34,6 @@
 		"grunt-ts": "4.1.0",
 		"grunt-contrib-copy": "0.8.0",
 		"grunt-shell": "1.1.2",
-		"typescript": "1.5.0-beta"
+		"typescript": "1.5.3"
 	}
 }

@@ -6,6 +6,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
 
     var androidAvd = grunt.option('avd') || "nexus"
+    var genyDevice = grunt.option('geny') || "nexus"
     var iOSDevice = grunt.option('device') || "nexus"
 
     grunt.initConfig({
@@ -40,10 +41,14 @@ module.exports = function(grunt) {
         },
         shell: {
             emulateAndroid: {
-                command: "tns emulate android --avd '" + androidAvd +"'"
+                command: "tns emulate android --avd \"" + androidAvd +"\""
             },
+            emulateGeny: {
+                command: "tns emulate android --geny \"" + genyDevice +"\""
+            },
+
             emulateIOS: {
-                command: "tns emulate ios --device '" + iOSDevice +"'"
+                command: "tns emulate ios --device \"" + iOSDevice +"\""
             }
 
         }
@@ -64,6 +69,7 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask("run-android", ["app", "shell:emulateAndroid"])
+    grunt.registerTask("run-geny", ["app", "shell:emulateGeny"])
     grunt.registerTask("run-ios", ["app", "shell:emulateIOS"])
 
     grunt.registerTask("clean", ["removeAppDir"]);
