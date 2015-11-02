@@ -1,7 +1,26 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "amd",
-        "sourceMap": true
-    }
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "target": "es5",
+        "noImplicitAny": false,
+        "outDir": "app",
+        "rootDir": "src",
+        "sourceMap": true,
+        "removeComments": false,
+        "emitDecoratorMetadata": true,
+        "noEmitOnError": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "filesGlob": [
+        "src/**/*.ts"
+    ],
+    "files": [
+        "src/app.ts",
+        "src/dependencies.d.ts",
+        "src/main-page.ts",
+        "src/main-view-model.ts"
+    ]
 }

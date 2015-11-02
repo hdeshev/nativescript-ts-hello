@@ -11,19 +11,11 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         ts: {
-            build: {
-                src: [
-                    'src/**/*.ts',
-                ],
-                dest: 'app',
+             build: {
+                tsconfig: 'tsconfig.json',
                 options: {
                     fast: "never",
-                    module: "commonjs",
-                    target: "es5",
-                    sourceMap: true,
-                    removeComments: false,
                     compiler: "node_modules/typescript/bin/tsc",
-                    noEmitOnError: true
                 },
             },
         },
