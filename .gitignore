@@ -1,4 +1,5 @@
 app
+.tscache
 platforms
 lib
 tmp
