@@ -5,7 +5,7 @@
         "target": "es5",
         "noImplicitAny": false,
         "outDir": "app",
-        "rootDir": "src",
+        "rootDir": "app",
         "sourceMap": true,
         "removeComments": false,
         "emitDecoratorMetadata": true,
@@ -16,13 +16,12 @@
     ],
     "filesGlob": [
         "node_modules/tns-core-modules/tns-core-modules.d.ts",
-        "app/**/*.ts",
-        "src/**/*.ts"
+        "app/**/*.ts"
     ],
     "files": [
         "node_modules/tns-core-modules/tns-core-modules.d.ts",
-        "src/app.ts",
-        "src/main-page.ts",
-        "src/main-view-model.ts"
+        "app/app.ts",
+        "app/main-page.ts",
+        "app/main-view-model.ts"
     ]
 }
