@@ -15,11 +15,13 @@
         "node_modules"
     ],
     "filesGlob": [
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "app/**/*.ts",
         "src/**/*.ts"
     ],
     "files": [
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
         "src/app.ts",
-        "src/dependencies.d.ts",
         "src/main-page.ts",
         "src/main-view-model.ts"
     ]
