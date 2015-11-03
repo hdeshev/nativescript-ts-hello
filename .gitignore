@@ -1,4 +1,6 @@
-app
+app/**/*.js
+app/**/.baseDir.ts
+app/**/*.map
 .tscache
 platforms
 lib
