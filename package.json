@@ -3,7 +3,7 @@
 		"id": "org.nativescript.nativescripttshello",
 		"node-modules-cache-path": "/home/local/TELERIK/hdeshev/w/nativescript-ts-hello/tmp/funnel-output_path-8r3FtDCG.tmp",
 		"tns-android": {
-			"version": "1.4.0"
+			"version": "1.5.1"
 		}
 	},
 	"name": "tns-template-hello-world",
@@ -23,20 +23,20 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/NativeScript/template-hello-world.git"
+		"url": "git://github.com/hdeshev/nativescript-ts-hello.git"
 	},
 	"bugs": {
-		"url": "https://github.com/NativeScript/template-hello-world/issues"
+		"url": "https://github.com/hdeshev/nativescript-ts-hello/issues"
 	},
-	"homepage": "https://github.com/NativeScript/template-hello-world",
+	"homepage": "https://github.com/hdeshev/nativescript-ts-hello",
 	"devDependencies": {
 		"grunt": "0.4.5",
-		"grunt-contrib-copy": "0.8.0",
+		"grunt-contrib-copy": "0.8.2",
 		"grunt-shell": "1.1.2",
-        "grunt-ts": "5.0.0-beta.5",
-        "typescript": "1.6.2"
+		"grunt-ts": "5.3.2",
+		"typescript": "1.7.5"
 	},
 	"dependencies": {
-		"tns-core-modules": "^1.4.0"
+		"tns-core-modules": "^1.5.2"
 	}
 }
